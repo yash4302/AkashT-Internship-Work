@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Task Day 1</title>
+
+    <link rel="stylesheet" type="text/css" href="css/day1.css" />
+</head>
+<body>
+    <h1 style="text-align: center;">Registration Form</h1>
+
+    <form>
+        <fieldset style="border-radius: 5px;">
+            <legend>Personal Details</legend>
+
+            <div>
+                <label for="name">Name</label>
+                <input type="text" name="name" size="40">
+            </div>
+
+            <div>
+                <label for="email">Email</label>
+                <input type="email" name="email" size="40">
+            </div>
+
+            <div>
+                <label for="contact">Contact</label>
+                <input type="tel" name="contact">
+            </div>
+            
+            <div>
+                <label for="dob">Date of Birth</label>
+                <input type="date" name="dob">
+            </div>
+        </fieldset>
+
+        <fieldset style="border-radius: 5px;">
+            <legend>College Details</legend>
+
+            <div>
+                <label for="clg_name">College Name</label>
+                <input type="text" name="clg_name" size="40">
+            </div>
+
+            <div>
+                <label for="address">Address</label>
+                <textarea name="address"rows="3" cols="40"></textarea>
+            </div>
+
+            <div>
+                <label for="doj">Date of Joining</label>
+                <input type="date" name="doj">
+            </div>
+        </fieldset>
+
+        <button type="submit" value="submit">Submit</button>
+        <button type="reset" value="reset">Reset</button>
+    </form>
+</body>
+</html>

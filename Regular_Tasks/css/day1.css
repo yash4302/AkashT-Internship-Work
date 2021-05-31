@@ -1,0 +1,30 @@
+﻿input, textarea {
+	padding: 0.4%;
+	border: 1px solid black;
+	border-radius: 3px;
+}
+
+
+fieldset {
+	margin: 1%;
+}
+
+legend {
+	font-size: 18px;
+}
+
+fieldset:focus-within {
+	border: 2px solid black;
+}
+
+fieldset:focus-within > legend{
+	font-weight: bold;
+}
+
+form {
+	margin: 1%;
+}
+
+div {
+	margin: 1%;
+}
